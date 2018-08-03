@@ -1,3 +1,4 @@
 # ProcessesAndThreadsManager
 This code provides you a interface to manage multiprocess and mutlithreads with python
-提供给开发者的一个Python实现进线程管理的接口，内有进程池和线程池以及外部进程列表，开发者可以直接调用接口来传入任务直接使用。
+提供给开发者的一个Python实现进线程管理的接口，内有进程池和线程池以及外部进程列表，开发者可以直接调用接口，传入执行任务函数或者外部python脚本来传入直接使用。
+注: 代码使用Python2.7编写，不过除了print修改之后可以直接使用，大家也可以使用2to3模块直接修改，因为用的都是python2和python3共有模块，所以可以放心使用
